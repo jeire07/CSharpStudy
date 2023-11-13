@@ -20,10 +20,6 @@ namespace CSharpStudy
             UseReadLine();
         }
 
-        /// <summary>
-        /// this methods shows
-        /// how to show string on Console.
-        /// </summary>
         public void WriteHello()
         {
             //WriteLine adds \n automatically
@@ -36,9 +32,6 @@ namespace CSharpStudy
             Write("\n");
         }
 
-        /// <summary>
-        /// how to use escape sequences.
-        /// </summary>
         public void UseEscapeSequence()
         {
             //backslash character \ example
@@ -71,10 +64,6 @@ namespace CSharpStudy
             Write("\n");
         }
 
-        /// <summary>
-        /// this method shows
-        /// how to declare and initialize variables.
-        /// </summary>
         public void UseVariables()
         {
             //declared but not initialized
@@ -102,9 +91,6 @@ namespace CSharpStudy
          * this comment starts with /* and ends with next line character
          */
 
-        /// <summary>
-        /// this method shows how to use Casting
-        /// </summary>
         public void UseTypeCasting()
         {
             //casting (can see in code)

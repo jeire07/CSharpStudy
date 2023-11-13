@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharpStudy
+﻿namespace CSharpStudy
 {
-    internal class CS07ClassAndObject
+    public class CS07ClassAndObject
     {
-        static void TodayIndex()
+        public void TodayIndex()
         {
             Console.WriteLine();
 
@@ -25,6 +19,13 @@ namespace CSharpStudy
 
             dow.ShowIndex();
             nasdaq.ShowIndex();
+
+            KOSPI kospi = new KOSPI();
+            kospi.Name = "KOSPI";
+            kospi.Change = 3.3f;
+            kospi.Point = 1950.0f;
+
+            kospi.ShowIndex();
         }
     }
 
@@ -79,12 +80,12 @@ namespace CSharpStudy
         }
     }
 
-    abstract class Index2
+    public abstract class Index2
     {
         public abstract void ShowIndex();
     }
 
-    class KOSPI : Index2
+    public class KOSPI : Index2
     {
         public string Name { get; set; }
         public float Change { get; set; }

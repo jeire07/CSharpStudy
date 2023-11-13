@@ -13,7 +13,7 @@ namespace CSharpStudy
         private GivenCards _player;
         private GivenCards _dealer;
 
-        public void PlayGame()
+        public void PlayBlackjack()
         {
             while (true)
             {

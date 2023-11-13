@@ -5,21 +5,21 @@ namespace CSharpStudy
     public class CS06MethodAndStruct
     {
         //2 input method
-        static int AddNum(int num1, int num2)
+        public int AddNum(int num1, int num2)
         {
             int sum1 = num1 + num2;
             return sum1;
         }
 
         //same method, but 3 input method
-        static int AddNum(int num1, int num2, int num3)
+        public int AddNum(int num1, int num2, int num3)
         {
             int sum1 = num1 + num2 + num3;
             return sum1;
         }
 
         //method for call Addnum method
-        static void TryOverload()
+        public void TryOverload()
         {
             int num1 = 10;
             int num2 = 20;
@@ -43,7 +43,7 @@ namespace CSharpStudy
             }
         }
 
-        static void MyBMI()
+        public void MyBMI()
         {
             PersonalInfo human1;
             human1.Name = "jeire";

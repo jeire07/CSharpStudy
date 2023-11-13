@@ -28,18 +28,12 @@ namespace CSharpStudy
             FormattingString();
         }
 
-        /// <summary>
-        /// How to display string on console with WriteLine()
-        /// </summary>
         public void PrintString()
         {
             WriteLine(text1);
             WriteLine(text2);
         }
 
-        /// <summary>
-        /// How to combine two strings.
-        /// </summary>
         public void Concatenate()
         {
             // concatenate
@@ -54,9 +48,6 @@ namespace CSharpStudy
             WriteLine(concatText2);
         }
 
-        /// <summary>
-        /// How to split a string using a specific character.
-        /// </summary>
         public void SplitString()
         {
             string originText1 = "My nickname is jeire";
@@ -71,9 +62,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// How to locate a specific substring within a string.
-        /// </summary>
         public void SearchString()
         {
             //search
@@ -83,9 +71,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// How to modify a specific substring within a string.
-        /// </summary>
         public void ReplaceString()
         {
             string text3 = "My nickname is jeire";
@@ -97,9 +82,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// How to use Parse() to convert string to int type.
-        /// </summary>
         public void ConversionWithParse()
         {
             //type conversion with Parse
@@ -111,9 +93,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// How to check if two strings are equal.
-        /// </summary>
         public void IsEqualString()
         {
             bool isEqaulText = text1 == text2;
@@ -129,9 +108,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// How to compare the priority or precedence of two strings.
-        /// </summary>
         public void CompareTwoStrings()
         {
             //which one is greater?
@@ -142,9 +118,6 @@ namespace CSharpStudy
             WriteLine();
         }
 
-        /// <summary>
-        /// how to use Format() and Interpolation
-        /// </summary>
         public void FormattingString()
         {
             //string format

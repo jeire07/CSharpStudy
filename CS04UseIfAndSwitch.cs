@@ -27,9 +27,6 @@ namespace CSharpStudy
             UseLoopExpressions(userPoint);
         }
 
-        /// <summary>
-        /// This method provides an introduction to the GuessNumber game for the user.
-        /// </summary>
         public void IntroduceGuessNumber()
         {
             WriteLine("Guess which number I have.");
@@ -95,9 +92,6 @@ namespace CSharpStudy
             }
         }
 
-        /// <summary>
-        /// This method provides an introduction to the even-odd game for the user.
-        /// </summary>
         public void IntroduceOddOrEven()
         {
             WriteLine("guess the dice's number game.");
